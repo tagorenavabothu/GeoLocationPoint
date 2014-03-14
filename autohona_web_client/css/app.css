@@ -1,0 +1,20 @@
+#map-canvas {
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  bottom: -200px; 
+  left: 0; 
+  right: 0; 
+  z-index: 0;
+}
+ 
+#container {
+  z-index: 100;
+  position: relative;
+  margin-left:40%;
+  background-color:#f3f3f3;
+  width: 20%;
+  padding:5;
+  color:green;
+  text-align:center
+}
